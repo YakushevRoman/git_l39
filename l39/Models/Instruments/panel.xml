@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <!-- Alt -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m> -0.048 </y-m>
+      <z-m> -0.479 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- Air Speed Indicator -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m> -0.048 </y-m>
+      <z-m> -0.588 </z-m>	  
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>  
+  
+  <!-- Artificial Horizon -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -3.374 </x-m>
+      <y-m>  0.062 </y-m>
+      <z-m> -0.477 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Vertical Speed Indicator -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m>  0.064 </y-m>
+      <z-m> -0.588 </z-m>	 
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+  
+  <!-- Compas -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/compas/compas.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>   
+  
+  <!-- Rivets -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/rivets/rivets.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>  
+
+  <!-- Engine RPM -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m>  0.175 </y-m>
+      <z-m> -0.459 </z-m> 
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Fuel % -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m>  0.175 </y-m>
+      <z-m> -0.529 </z-m> 
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+  
+  <!-- Exhaust Gaz Temperature -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/egt/egt.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m>  0.175 </y-m>
+      <z-m> -0.602 </z-m> 
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>   
+  
+  <!-- Clock -->
+  <model>
+    <path>Aircraft/l39/Models/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m> -3.350 </x-m>
+      <y-m> -0.198 </y-m>
+      <z-m> -0.450 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>  
+</PropertyList>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- Based on EF2000 flame -->
+<PropertyList>
+  
+  <path>combustion.ac</path>
+
+  <animation>
+    <object-name>ExternalFlame</object-name>
+  </animation>
+
+  <effect>
+    <inherits-from>Effects/glass</inherits-from>
+    <condition>
+      <property>/sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>ExternalFlame</object-name>   
+  </effect>
+
+  <animation>
+    <type>scale</type>
+    <object-name>ExternalFlame</object-name>
+    <x-min> 3.9 </x-min>
+    <y-min> 2.5 </y-min>
+    <z-min> 2.5 </z-min>
+    <x-factor> 1.00 </x-factor>
+    <y-factor> 1.00 </y-factor>
+    <z-factor> 1.00 </z-factor>
+  </animation>
+ 
+  <animation>
+    <type>spin</type>
+    <object-name>ExternalFlame</object-name>
+	<property>engines/engine[0]/n1</property>
+    <value>10.0</value>
+	<axis>
+     <x> 1.0 </x>
+     <y> 0.0 </y>
+     <z> 0.0 </z>
+    </axis>
+	
+    <property>engines/engine[1]/n1</property>
+    <value>360.0</value>
+	<axis>
+     <x> 1.0 </x>
+     <y> 0.0 </y>
+     <z> 0.0 </z>
+    </axis>
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>ExternalFlame</object-name>
+    <emission>
+      <red>   5.0 </red>
+      <green> 2.0 </green>
+      <blue>  5.0 </blue>
+    </emission>
+  </animation>
+
+</PropertyList>

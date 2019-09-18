@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>vega_2.ac</path>	
+	
+	<sound>
+		<audible>true</audible> 
+		<path type="string">Aircraft/l39/Sounds/l39-sound.xml</path>
+	</sound>
+	
+	
+	<model>
+		<path>Aircraft/l39/Models/Effects/fire.xml</path>
+			<offsets>
+				<x-m>4.95</x-m>
+				<y-m>0.000</y-m>
+				<z-m>0.000</z-m>
+			</offsets>
+	</model>
+	<model>
+		<path>Aircraft/l39/Models/Effects/fire_smoke.xml</path>
+			<offsets>
+				<x-m>6.0</x-m>
+				<y-m>0.000</y-m>
+				<z-m>0.000</z-m>
+			</offsets>
+	</model>
+	
+</PropertyList>
